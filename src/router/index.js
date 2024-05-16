@@ -8,11 +8,11 @@ import AboutView from '../views/AboutView.vue'
 
 
 const routes =[
-    {
-        path:'/',
-        name:'home',
-        conponent:HomeView
-    },
+    // {
+    //     path:'/',
+    //     name:'home',
+    //     conponent:HomeView
+    // },
     {
         path:'/about',
         name:'about',
@@ -32,6 +32,11 @@ const routes =[
         path:'/2-2',
         name:'zongdiguangli',
         component: () => import('../views/Zongdiguangli.vue') 
+    },
+    {
+        path:'/zhuye',
+        name:'home',
+        component: () => import('../views/Home.vue') 
     }
     
     
